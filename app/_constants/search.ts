@@ -1,9 +1,9 @@
-interface quickSearchOptionsProps {
-  imageUrl: string;
-  title: string;
+interface QuickSearchOption {
+  imageUrl: string
+  title: string
 }
 
-export const quickSearchOptions: quickSearchOptionsProps[] = [
+export const quickSearchOptions: QuickSearchOption[] = [
   {
     imageUrl: "/cabelo.svg",
     title: "Cabelo",
@@ -13,19 +13,19 @@ export const quickSearchOptions: quickSearchOptionsProps[] = [
     title: "Barba",
   },
   {
-    imageUrl: "/sobrancelha.svg",
-    title: "Sobrancelha",
-  },
-  {
     imageUrl: "/acabamento.svg",
     title: "Acabamento",
-  },
-  {
-    imageUrl: "/hidratacao.svg",
-    title: "Hidratação",
   },
   {
     imageUrl: "/massagem.svg",
     title: "Massagem",
   },
-];
+  {
+    imageUrl: "/sobrancelha.svg",
+    title: "Sobrancelha",
+  },
+  {
+    imageUrl: "/hidratacao.svg",
+    title: "Hidratação",
+  },
+]
